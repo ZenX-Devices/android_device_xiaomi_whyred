@@ -54,3 +54,5 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+export ZENX_BUILD_TYPE=Official
