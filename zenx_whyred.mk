@@ -46,10 +46,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200605.001 6392402 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200805.001 6578210 release-keys"
 
 #Build FP to be picked by both system and vendor
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
