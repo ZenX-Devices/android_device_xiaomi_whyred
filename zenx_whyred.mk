@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common ZenX stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
